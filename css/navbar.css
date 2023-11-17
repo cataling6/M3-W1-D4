@@ -5,17 +5,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 0 1 70px;
   text-wrap: nowrap;
   text-transform: capitalize;
+  width: 110px;
+  flex-shrink: 1;
+  flex-grow: 0;
 }
 
 .shop {
   border-radius: 30px;
   display: flex;
-  flex: 0 2 140px;
-  display: flex;
   justify-content: space-around;
+  flex-shrink: 1;
+  flex-basis: 220px;
 }
 
 .shop img {
@@ -27,11 +29,13 @@
 }
 
 .nav {
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
   border-radius: 50px;
   padding-inline: 20px;
   padding-block: 20px;
   background-color: #fef7e2;
-  width: 80%;
   display: flex;
   justify-content: space-between;
 }
